@@ -63,7 +63,7 @@ class User:
         break
     if not name:
       return
-    self.call_func(name)
+    self.call_func(name, text)
 
   def forward(self, text):
     if self.markup is not None:
